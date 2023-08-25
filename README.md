@@ -39,10 +39,13 @@ We perform a human evaluation on SeqGPT-7B1 and ChatGPT using the held-out datas
 <img src="assets/human_eval_7b_vs_chatgpt.jpg" width="300">
 </div>
 
+## Demo 
+
+🔥 Try our demo at [Modelscope](https://www.modelscope.cn/studios/TTCoding/open_ner/summary).
 
 ## Checkpoints
 
-We release the weight of SeqGPT-560M at both [Modelscope]() and [Hugging Face]().
+We will release the weight of SeqGPT-560M at both [Modelscope]() and [Hugging Face]() (both under construction and are comming soon). You can use this temporary huggingface [link](https://huggingface.co/Yirany/SeqGPT-560M) for now. 
 
 ## Usage
 
