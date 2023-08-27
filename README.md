@@ -4,7 +4,7 @@
 ## An Out-of-the-box Large Language Model for Open Domain Sequence Understanding
 
 <div>
-Tianyu Yu*, Chengyue Jiang*, Chao Lou*, Shen Huang*, Xiaobin Wang, Wei Liu, Jiong Cai, Yangning Li, Yinghui Li, Kewei Tu, Hai-Tao Zheng, Pengjun Xie, Fei Huang, Yong Jiang†
+Tianyu Yu*, Chengyue Jiang*, Chao Lou*, Shen Huang*, Xiaobin Wang, Wei Liu, Jiong Cai, Yangning Li, Yinghui Li, Kewei Tu, Hai-Tao Zheng, Ningyu Zhang, Pengjun Xie, Fei Huang, Yong Jiang†
 </div>
 <div>
 <strong>DAMO Academy, Alibaba Group</strong>
