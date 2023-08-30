@@ -45,7 +45,7 @@ We perform a human evaluation on SeqGPT-7B1 and ChatGPT using the held-out datas
 
 ## Checkpoints
 
-We will release the weight of SeqGPT-560M at both [Modelscope]() and [Hugging Face]() (both under construction and are comming soon). You can use this temporary huggingface [link](https://huggingface.co/Yirany/SeqGPT-560M) for now. 
+We will release the weight of SeqGPT-560M at both [Modelscope](https://www.modelscope.cn/models/damo/nlp_seqgpt-560m) and [Hugging Face]()(comming soon). You can use this temporary huggingface [link](https://huggingface.co/Yirany/SeqGPT-560M) for now. 
 
 ## Usage
 
