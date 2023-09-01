@@ -32,6 +32,15 @@ Tianyu Yu*, Chengyue Jiang*, Chao Lou*, Shen Huang*, Xiaobin Wang, Wei Liu, Jion
 * Trained with diverse synthesized data and high-quality NLU dataset.
 * Handle all NLU tasks that can be transformed into a combination of atomic tasks, classification and extraction.
 
+## 📰  Update News
+
+`SeqGPT` is continuously updating. We have provided online demos for everyone. In the future, we will provide new versions of models with upgraded capabilities. Please continue to pay attention!
+
+- **[2023/08/23]** 🛠️ We release the weight of SeqGPT-560M at both [Modelscope](https://www.modelscope.cn/models/damo/nlp_seqgpt-560m) and [Hugging Face](https://huggingface.co/DAMO-NLP/SeqGPT-560M). You can download and inference with our model simply following the [usage case](#inference).
+- **[2023/08/23]** 🔥 We provide an online demo of SeqGPT at [Modelscope](https://www.modelscope.cn/studios/TTCoding/open_ner/summary)! Try it now!
+- **[2023/08/21]** 📑 We release the paper of SeqGPT: [SeqGPT: An Out-of-the-box Large Language Model for Open Domain Sequence Understanding](https://arxiv.org/abs/2308.10529). More impletation details and experimental results are presented in the paper.
+
+
 ## Performance
 
 We perform a human evaluation on SeqGPT-7B1 and ChatGPT using the held-out datasets. Ten annotators are tasked to decide which model gives the better answer or two models are tied with each other. SeqGPT-7B1 outperforms ChatGPT on 7/10 NLU tasks but lags behind in sentiment analysis (SA), slot filling (SF) and natural language inference (NLI).
@@ -39,17 +48,9 @@ We perform a human evaluation on SeqGPT-7B1 and ChatGPT using the held-out datas
 <img src="assets/human_eval_7b_vs_chatgpt.jpg" width="300">
 </div>
 
-## Demo 
-
-🔥 Try our demo at [Modelscope](https://www.modelscope.cn/studios/TTCoding/open_ner/summary).
-
-## Checkpoints
-
-We will release the weight of SeqGPT-560M at both [Modelscope](https://www.modelscope.cn/models/damo/nlp_seqgpt-560m) and [Hugging Face]()(comming soon). You can use this temporary huggingface [link](https://huggingface.co/Yirany/SeqGPT-560M) for now. 
-
 ## Usage
 
-Install:
+### Install
 
 ```sh
 conda create -n seqgpt python==3.8.16
@@ -58,13 +59,13 @@ conda activate seqgpt
 pip install -r requirements.txt
 ```
 
-Inference:
+### Inference
 
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModel
 import torch
 
-model_name_or_path = '<model_name_or_path>'
+model_name_or_path = 'DAMO-NLP/SeqGPT-560M'
 tokenizer = AutoTokenizer.from_pretrained(model_name_or_path)
 model = AutoModelForCausalLM.from_pretrained(model_name_or_path)
 tokenizer.padding_side = 'left'
