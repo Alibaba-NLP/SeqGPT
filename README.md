@@ -36,6 +36,7 @@ Tianyu Yu*, Chengyue Jiang*, Chao Lou*, Shen Huang*, Xiaobin Wang, Wei Liu, Jion
 
 `SeqGPT` is continuously updating. We have provided online demos for everyone. In the future, we will provide new versions of models with upgraded capabilities. Please continue to pay attention!
 
+- **[2023/09/20]** 🎛️ We provide a sample script for fine-tuning on a custom dataset at [here](https://github.com/modelscope/swift/blob/main/examples/pytorch/llm/scripts/seqgpt_560m/full/sft.sh).
 - **[2023/08/23]** 🛠️ We release the weight of SeqGPT-560M at both [Modelscope](https://www.modelscope.cn/models/damo/nlp_seqgpt-560m) and [Hugging Face](https://huggingface.co/DAMO-NLP/SeqGPT-560M). You can download and inference with our model simply following the [usage case](#inference).
 - **[2023/08/23]** 🔥 We provide an online demo of SeqGPT at [Modelscope](https://www.modelscope.cn/studios/TTCoding/open_ner/summary)! Try it now!
 - **[2023/08/21]** 📑 We release the paper of SeqGPT: [SeqGPT: An Out-of-the-box Large Language Model for Open Domain Sequence Understanding](https://arxiv.org/abs/2308.10529). More impletation details and experimental results are presented in the paper.
